@@ -1,0 +1,49 @@
+.app {
+  margin: 20px;
+
+  h1 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #666;
+
+    em {
+      color: green;
+      font-style: normal;
+      font-size: 1.3rem;
+      font-size: 600;
+    }
+  }
+
+  .data-grid {
+    border-collapse: collapse;
+    width: 60%;
+
+    th {
+      border-bottom: 1px solid #ccc;
+      padding: 6px 10px;
+      text-align: left;
+
+      &.num {
+        text-align: right;
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: #efefef;
+        }
+      
+
+        td {
+          padding: 6px 10px;
+          text-align: left;
+
+          &.num {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
